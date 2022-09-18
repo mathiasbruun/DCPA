@@ -1,0 +1,3 @@
+2022-09-18 16:22:49.975 | DEBUG    | utils.twitter_utils:scrape_politician_handles:44 - Link retrieval info: No href found for <a id="overblik"></a>
+2022-09-18 16:22:49.978 | INFO     | utils.twitter_utils:scrape_politician_handles:52 - 
+All done. 705 Twitter handles retrieved.
