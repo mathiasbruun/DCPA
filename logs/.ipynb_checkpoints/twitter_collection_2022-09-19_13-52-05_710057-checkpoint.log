@@ -1,0 +1,18 @@
+2022-09-19 13:52:05.713 | INFO     | utils.twitter_utils:collect_all_user_tweets:99 - Dividing handles into 6.0 chunk(s)...
+2022-09-19 13:52:05.715 | INFO     | utils.twitter_utils:collect_all_user_tweets:103 - Beginning collection...
+2022-09-19 13:52:05.715 | INFO     | utils.twitter_utils:collect_all_user_tweets:110 - --- CHUNK NO. 1 ---
+2022-09-19 14:07:58.759 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @mariabrumvig
+2022-09-19 14:23:27.204 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @larsloekke
+2022-09-19 14:23:42.133 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - 404 Not Found
+34 - Sorry, that page does not exist.! Unable to collect tweets for @skaarup_df
+2022-09-19 14:38:56.519 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @DKsundhed
+2022-09-19 14:54:49.890 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @jesperkiel
+2022-09-19 15:10:18.239 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @EllenTraneNorby
+2022-09-19 15:11:51.826 | INFO     | utils.twitter_utils:collect_all_user_tweets:110 - --- CHUNK NO. 2 ---
+2022-09-19 15:25:47.533 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @DanJoergensen
+2022-09-19 15:41:17.218 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @SociologenHD
+2022-09-19 15:56:59.439 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @PerClausen3
+2022-09-19 16:03:00.878 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - 404 Not Found
+34 - Sorry, that page does not exist.! Unable to collect tweets for @MartinH_DF
+2022-09-19 16:12:52.777 | ERROR    | utils.twitter_utils:collect_all_user_tweets:119 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @jeppelindberg
+2022-09-19 16:20:15.023 | INFO     | utils.twitter_utils:collect_all_user_tweets:110 - --- CHUNK NO. 3 ---

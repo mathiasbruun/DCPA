@@ -1,0 +1,27 @@
+2022-09-19 10:17:14.485 | INFO     | utils.twitter_utils:collect_all_user_tweets:99 - Dividing handles into 1.0 chunk(s)...
+2022-09-19 10:17:14.497 | INFO     | utils.twitter_utils:collect_all_user_tweets:103 - Beginning collection...
+2022-09-19 10:17:14.501 | INFO     | utils.twitter_utils:collect_all_user_tweets:109 - --- CHUNK NO. 1 ---
+2022-09-19 10:17:17.949 | INFO     | utils.twitter_utils:collect_all_user_tweets:125 - Collection completed for 1 twitter handles!
+2022-09-19 10:19:36.711 | INFO     | utils.twitter_utils:collect_all_user_tweets:99 - Dividing handles into 8.0 chunk(s)...
+2022-09-19 10:19:36.714 | INFO     | utils.twitter_utils:collect_all_user_tweets:103 - Beginning collection...
+2022-09-19 10:19:36.716 | INFO     | utils.twitter_utils:collect_all_user_tweets:109 - --- CHUNK NO. 1 ---
+2022-09-19 10:45:42.147 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @Jens_Joel
+2022-09-19 11:01:10.424 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @LineaLidell
+2022-09-19 11:16:39.098 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @JakobEllemann
+2022-09-19 11:32:19.417 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @IdaAuken
+2022-09-19 11:36:06.365 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - 404 Not Found
+34 - Sorry, that page does not exist.! Unable to collect tweets for @OleRevsgaard
+2022-09-19 11:36:16.382 | INFO     | utils.twitter_utils:collect_all_user_tweets:109 - --- CHUNK NO. 1 ---
+2022-09-19 11:42:57.336 | INFO     | utils.twitter_utils:collect_all_user_tweets:99 - Dividing handles into 7.0 chunk(s)...
+2022-09-19 11:42:57.337 | INFO     | utils.twitter_utils:collect_all_user_tweets:103 - Beginning collection...
+2022-09-19 11:42:57.339 | INFO     | utils.twitter_utils:collect_all_user_tweets:109 - --- CHUNK NO. 1 ---
+2022-09-19 12:02:58.066 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @Hans_Kr_Skibby
+2022-09-19 12:18:57.836 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @GunvorWibroe
+2022-09-19 12:34:26.795 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @AstridAller
+2022-09-19 12:49:59.897 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @VictoriaV_EL
+2022-09-19 13:05:55.849 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @AdsbolAdsbl
+2022-09-19 13:06:10.514 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - 404 Not Found
+34 - Sorry, that page does not exist.! Unable to collect tweets for @BodilKornbek
+2022-09-19 13:21:27.066 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @metteabildgaard
+2022-09-19 13:29:01.866 | INFO     | utils.twitter_utils:collect_all_user_tweets:109 - --- CHUNK NO. 1 ---
+2022-09-19 13:36:55.688 | ERROR    | utils.twitter_utils:collect_all_user_tweets:118 - Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Read timed out. (read timeout=120)! Unable to collect tweets for @AnjaCJensen
