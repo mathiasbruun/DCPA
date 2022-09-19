@@ -1,0 +1,9 @@
+2022-09-18 17:43:42.671 | INFO     | utils.twitter_utils:collect_all_user_tweets:93 - Beginning collection...
+2022-09-18 17:59:12.028 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @SchaldemoseMEP
+2022-09-18 18:10:21.274 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @DanielPrehn1
+2022-09-18 18:22:41.213 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @DennisSchmock
+2022-09-18 18:22:42.899 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @LisbethBNielsen
+2022-09-18 18:22:43.397 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @SorenRasmussenO
+2022-09-18 18:22:43.778 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @Leif_Olsen
+2022-09-18 18:22:43.987 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @BHaarder
+2022-09-18 18:22:52.717 | ERROR    | utils.twitter_utils:collect_all_user_tweets:102 - Unable to collect tweets for @DMCamilla
