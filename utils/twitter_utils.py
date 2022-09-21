@@ -67,7 +67,7 @@ def load_handles_from_txt(txt_file):
         
         return handles
 
-def collect_single_user_tweets(screen_name, since_id = None):
+def collect_single_user_tweets(screen_name, since_id, max_id):
     '''
     TODO...
     '''
@@ -78,8 +78,9 @@ def collect_single_user_tweets(screen_name, since_id = None):
             screen_name = screen_name,
             include_rts = True,
             tweet_mode = 'extended',
-            since_id = since_id
-        ).items(3200)
+            since_id = since_id,
+            max_id = max_id
+        ).items(4000)
     ]
     
     return(tweets)
@@ -112,7 +113,7 @@ def collect_all_user_tweets(twitter_handle_list):
         for handle in tqdm(chunk):
 
             try:
-                tweets = collect_single_user_tweets(handle)
+                tweets = collect_single_user_tweets(handle, since_id = None, max_id = None)
                 chunk_tweets.extend([tweet for tweet in tweets])
 
             except (Unauthorized, NotFound, Forbidden, TweepyException) as ex:
