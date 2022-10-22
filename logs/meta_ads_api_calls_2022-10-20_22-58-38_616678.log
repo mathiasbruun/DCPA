@@ -1,0 +1,116 @@
+2022-10-20 22:58:59.024 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 22:59:59.377 | DEBUG    | __main__:get_cursor:5 - ERROR: {'code': 1, 'message': 'An unknown error occurred', 'error_subcode': 99} at page 6
+2022-10-20 22:59:59.382 | DEBUG    | __main__:get_cursor:6 - Sleeping for 10.0 mins.
+2022-10-20 23:09:59.377 | INFO     | __main__:<module>:39 - Last page reached. All done!
+2022-10-20 23:24:02.307 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:24:26.668 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:25:39.187 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:26:03.884 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:29:22.804 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:36:43.325 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:39:32.491 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:41:02.577 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-20 23:42:55.622 | DEBUG    | __main__:<module>:30 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 16
+2022-10-20 23:42:55.629 | DEBUG    | __main__:<module>:31 - Sleeping for 10.0 mins.
+2022-10-20 23:52:55.644 | DEBUG    | __main__:<module>:30 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 16
+2022-10-20 23:52:55.661 | DEBUG    | __main__:<module>:31 - Sleeping for 10.0 mins.
+2022-10-21 09:56:23.757 | DEBUG    | __main__:<module>:6 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 19
+2022-10-21 09:56:23.765 | DEBUG    | __main__:<module>:7 - Sleeping for 10.0 mins.
+2022-10-21 09:56:52.586 | DEBUG    | __main__:<module>:11 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 22
+2022-10-21 09:56:52.588 | DEBUG    | __main__:<module>:12 - Sleeping for 0.0 mins.
+2022-10-21 09:57:46.291 | DEBUG    | __main__:<module>:11 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 30
+2022-10-21 09:57:46.299 | DEBUG    | __main__:<module>:12 - Sleeping for 0.0 mins.
+2022-10-21 09:57:58.265 | DEBUG    | __main__:<module>:11 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 34
+2022-10-21 09:57:58.274 | DEBUG    | __main__:<module>:12 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 09:58:16.216 | DEBUG    | __main__:<module>:11 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 09:58:16.225 | DEBUG    | __main__:<module>:12 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:04:42.368 | DEBUG    | __main__:<module>:14 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:04:42.376 | DEBUG    | __main__:<module>:15 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:04:44.384 | DEBUG    | __main__:<module>:14 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:04:44.386 | DEBUG    | __main__:<module>:15 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:04:46.393 | DEBUG    | __main__:<module>:14 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:04:46.395 | DEBUG    | __main__:<module>:15 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:04:48.397 | DEBUG    | __main__:<module>:14 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:04:48.401 | DEBUG    | __main__:<module>:15 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:07:14.417 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:07:14.422 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:07:16.425 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:07:16.428 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:07:18.430 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:07:18.432 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:07:20.436 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:07:20.444 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:15.452 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:15.460 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:17.467 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:17.469 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:19.474 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:19.476 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:21.479 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:21.481 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:43.958 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:43.963 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:45.969 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:45.971 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:08:47.978 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:08:47.980 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:10.770 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:10.781 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:12.789 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:12.791 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:14.797 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:14.800 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:24.376 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:24.384 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:26.391 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:26.393 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:09:28.396 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:09:28.399 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:03.260 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:03.263 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:05.269 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:05.271 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:07.277 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:07.279 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:31.028 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:31.030 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:33.033 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:33.035 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:35.041 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:35.043 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:10:37.046 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:10:37.049 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:20:56.077 | DEBUG    | __main__:<module>:16 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:20:56.086 | DEBUG    | __main__:<module>:17 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:26:18.747 | DEBUG    | __main__:<module>:16 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:26:18.756 | DEBUG    | __main__:<module>:17 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:27:11.220 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 10:27:11.228 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 10:28:33.411 | INFO     | __main__:<module>:20 - Calling Meta API...
+2022-10-21 10:30:02.219 | DEBUG    | __main__:<module>:31 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 13
+2022-10-21 10:30:02.227 | DEBUG    | __main__:<module>:32 - Sleeping for 10.0 mins.
+2022-10-21 10:40:16.094 | DEBUG    | __main__:<module>:31 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 13
+2022-10-21 10:40:16.103 | DEBUG    | __main__:<module>:32 - Sleeping for 10.0 mins.
+2022-10-21 11:09:39.932 | DEBUG    | __main__:<module>:15 - ERROR: {'code': 1, 'message': "Please reduce the amount of data you're asking for, then retry your request"} at page 3
+2022-10-21 11:09:39.945 | DEBUG    | __main__:<module>:16 - Sleeping for 0.03333333333333333 mins.
+2022-10-21 11:42:41.383 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:42:56.938 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:44:57.942 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:45:38.926 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:48:32.563 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:48:44.309 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:49:29.364 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:51:49.625 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:53:34.993 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:53:46.389 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 11:56:48.806 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 0
+2022-10-21 12:06:48.825 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 1
+2022-10-21 12:16:48.907 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 2
+2022-10-21 12:27:15.172 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 12:29:58.177 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 0
+2022-10-21 12:40:07.767 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 1
+2022-10-21 12:50:31.188 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 0
+2022-10-21 13:00:41.714 | DEBUG    | __main__:request_ads_handle_errors:12 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 1
+2022-10-21 13:11:38.392 | INFO     | __main__:<module>:19 - Calling Meta API...
+2022-10-21 13:15:07.500 | DEBUG    | __main__:request_ads_handle_errors:20 - ERROR: Please reduce the amount of data you're asking for, then retry your request. Sleeping for 10.0 mins. Retries: 0
+2022-10-21 13:25:20.611 | INFO     | __main__:<module>:48 - Last page reached. All done!
