@@ -80,7 +80,7 @@ def collect_single_user_tweets(screen_name, since_id, max_id):
             tweet_mode = 'extended',
             since_id = since_id,
             max_id = max_id
-        ).items(4000)
+        ).items(3200)
     ]
     
     return(tweets)
@@ -189,8 +189,8 @@ def get_new_user_tweets(df_tweets):
         most_recent_id = get_most_recent_tweet_id(df_tweets, handle)
         
         try:
-            tweets = collect_single_user_tweets(handle, since_id = most_recent_id)
-            all_tweets.extend([tweet for tweet in tweets])
+            tweets = collect_single_user_tweets(handle, since_id = most_recent_id, max_id = None)
+            all_tweets.extend(tweets)
             
         except Exception as ex:
             ex_name = type(ex).__name__

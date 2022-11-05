@@ -1,0 +1,6 @@
+2022-11-05 12:22:52.964 | INFO     | utils.twitter_utils:get_new_user_tweets:183 - Looking for new tweets since last extraction...
+2022-11-05 12:25:46.546 | ERROR    | utils.twitter_utils:get_new_user_tweets:197 - NotFound! Unable to collect tweets for Knuden1969
+2022-11-05 12:38:55.838 | ERROR    | utils.twitter_utils:get_new_user_tweets:197 - TweepyException! Unable to collect tweets for kaaretraberg
+2022-11-05 12:40:01.332 | ERROR    | utils.twitter_utils:get_new_user_tweets:197 - Unauthorized! Unable to collect tweets for dfmehd_mette
+2022-11-05 12:54:24.251 | ERROR    | utils.twitter_utils:get_new_user_tweets:197 - TweepyException! Unable to collect tweets for olebirkolesen
+2022-11-05 12:58:43.589 | INFO     | utils.twitter_utils:get_new_user_tweets:199 - Collection completed for 638 twitter handles!
