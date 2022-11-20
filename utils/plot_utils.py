@@ -11,7 +11,8 @@ def plot_timeseries_volume(
     df,
     cmap,
     interval: 'time intervals to plot, e.g. "M", "Q", "Y"' = 'Q',
-    constrain_source = False
+    constrain_source = False,
+    title = False
 ):
     
     if type(constrain_source) == str:
@@ -30,7 +31,7 @@ def plot_timeseries_volume(
     
     interval_title = interval_dict[interval]
     
-    df['date'] = pd.to_datetime(df['start_time'])
+    df['date'] = pd.to_datetime(df['start_time']).copy()
     stack_data = pd.DataFrame(df.groupby(
         by = [
             pd.Grouper(key='date', freq=interval),
@@ -75,7 +76,8 @@ def plot_timeseries_volume(
     
     ax.yaxis.set_major_formatter(mtick.PercentFormatter())
     ax.set_yticks([0, 50,100])
-    ax.set_title(f'Proportion of {interval_title} utterances by party ({source_title})', size = 14, weight = 'bold')
+    if title:
+        ax.set_title(f'Proportion of {interval_title} utterances by party ({source_title})\n', size = 14, weight = 'bold')
     plt.margins(x=0, y=0)
     ax.grid(False)
     
@@ -91,7 +93,7 @@ def calculate_outliers(df, col):
     
     return outliers
 
-def draw_volume_boxes(df, cmap, source = 'parliament', label_jitter = 1, remove_list=[]):
+def draw_volume_boxes(df, cmap, source = 'parliament', label_jitter = 1, remove_list=[], title = False):
 
     politician_docs = (
         pd.DataFrame(
@@ -170,12 +172,12 @@ def draw_volume_boxes(df, cmap, source = 'parliament', label_jitter = 1, remove_
             va='center',
             path_effects=[pe.withStroke(linewidth=3, foreground='white')]
         )
-
-    plt.title(
-        f'Distribution of MP utterance volumes by party ({source.title()})\n',
-        weight = 'bold',
-        size = 16
-    )
+    if title:
+        plt.title(
+            f'Distribution of MP utterance volumes by party ({source.title()})\n',
+            weight = 'bold',
+            size = 16
+        )
     plt.xlabel('')
     plt.ylabel('')
     plt.show()
