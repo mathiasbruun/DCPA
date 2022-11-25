@@ -74,8 +74,20 @@ def plot_timeseries_volume(
     handles, labels = ax.get_legend_handles_labels()
     ax.legend(handles[::-1], labels[::-1], loc='center left', bbox_to_anchor=(1, 0.5))
     
+    notable_dates = {
+        '2019-06-05': 'National election',
+        '2022-10-01': 'National election'
+    } #, '2020-03-11', '2020-09-25', '2021-10-16',
+    
+    
+    for date, desc in notable_dates.items():
+        plt.axvline(pd.to_datetime(date), linestyle = '--', color = 'white')
+        #plt.text(pd.to_datetime(date), 80, '\n'+desc, color = 'white', weight = 'bold')
+
     ax.yaxis.set_major_formatter(mtick.PercentFormatter())
     ax.set_yticks([0, 50,100])
+    #ax.set_xticks(notable_dates)
+    
     if title:
         ax.set_title(f'Proportion of {interval_title} utterances by party ({source_title})\n', size = 14, weight = 'bold')
     plt.margins(x=0, y=0)

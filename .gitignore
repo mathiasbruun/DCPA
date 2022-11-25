@@ -3,3 +3,4 @@ tensorboard_input/
 .DS_Store
 utils/.DS_Store
 utils/meta_credentials
+embedding_models/
