@@ -4,3 +4,5 @@ tensorboard_input/
 utils/.DS_Store
 utils/meta_credentials
 embedding_models/
+output_meta.png
+output_parl.png
